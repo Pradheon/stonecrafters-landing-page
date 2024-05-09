@@ -1,6 +1,6 @@
-/*
-! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
-*/
+/* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
+
+/* ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -582,54 +582,6 @@ video {
   top: 25%;
 }
 
-.top-10 {
-  top: 2.5rem;
-}
-
-.top-9 {
-  top: 2.25rem;
-}
-
-.top-11 {
-  top: 2.75rem;
-}
-
-.-top-1\/2 {
-  top: -50%;
-}
-
-.top-12 {
-  top: 3rem;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
-.top-16 {
-  top: 4rem;
-}
-
-.top-14 {
-  top: 3.5rem;
-}
-
-.top-1 {
-  top: 0.25rem;
-}
-
-.top-\[calc\] {
-  top: calc;
-}
-
-.top-\[calc\(\)\] {
-  top: calc();
-}
-
-.top-\[calc\(top-20\)\] {
-  top: calc(top - 20);
-}
-
 .top-\[calc\(4\.5rem\)\] {
   top: calc(4.5rem);
 }
@@ -902,9 +854,9 @@ video {
   background-color: rgb(234 88 12 / 0.9);
 }
 
-.bg-red-500 {
+.bg-red-800 {
   --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
 }
 
 .bg-slate-100 {
@@ -925,11 +877,6 @@ video {
 .bg-zinc-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(39 39 42 / var(--tw-bg-opacity));
-}
-
-.bg-red-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -990,6 +937,11 @@ video {
   padding-bottom: 4rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1003,16 +955,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .pb-24 {
@@ -1168,14 +1110,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:top-10 {
-    top: 2.5rem;
-  }
-
-  .md\:top-9 {
-    top: 2.25rem;
-  }
-
   .md\:top-12 {
     top: 3rem;
   }
