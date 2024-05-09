@@ -42,18 +42,18 @@
     </div>
     <nav id="navbar" class="sticky top-[calc(4.5rem)] md:top-12 flex flex-wrap items-center gap-x-5 bg-black/80 px-4 py-4 backdrop-blur justify-between text-lg z-[calc(100)] md:px-14 md:py-5 lg:px-16">
         <div>
-            <a class="text-white font-extrabold hover:text-orange-500" href="#">Stone Crafter's & Home</p>
+            <a class="text-white font-extrabold hover:text-orange-500" href="#" aria-label="Top of page link">Stone Crafter's & Home</p>
         </div>
         <!-- Small Screen Navigation -->
         <section id="sm-nav" class="md:hidden">
-            <button class="border border-gray-500 rounded px-1 py-1 cursor-pointer" id="menu-button" type="button" onclick="openMenu()">
+            <button class="border border-gray-500 rounded px-1 py-1 cursor-pointer" id="menu-button" type="button" onclick="openMenu()" aria-label="Menu Button">
                 <span class="hidden">Menu Button</span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>              
             </button>
             <div id="sm-menu" class="absolute top-0 left-0 w-full bg-black/90 flex flex-col hidden transition ease-in-out delay-500">
-                <a class="border border-gray-500 rounded px-1 py-1 cursor-pointer self-end text-white mt-3 mr-3" id="exit-menu-button" onclick="closeMenu()">
+                <a class="border border-gray-500 rounded px-1 py-1 cursor-pointer self-end text-white mt-3 mr-3" id="exit-menu-button" onclick="closeMenu()" aria-label="Close Menu Button">
                     <span class="hidden">Exit Menu Button</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
@@ -62,23 +62,23 @@
                 <div class="relative top-1/4 w-full text-center mt-8 text-gray-400">
                     <menu class="flex flex-col flex-wrap items-center gap-x-5 px-4 py-4 md:px-10 lg:px-16 md:py-5">
                         <li class="hover:text-orange-500">
-                            <a href="#about" onclick="closeMenu()">About</a>
+                            <a href="#about" onclick="closeMenu()" aria-label="About Section Link">About</a>
                         </li>
                         <hr class="w-full border border-zinc-700">
                         <li class="hover:text-orange-500">
-                            <a href="#services" onclick="closeMenu()">Services</a>
+                            <a href="#services" onclick="closeMenu()" aria-label="Services Section Link">Services</a>
                         </li>
                         <hr class="w-full border border-zinc-700">
                         <li class="hover:text-orange-500">
-                            <a href="#portfolio" onclick="closeMenu()">Portfolio</a>
+                            <a href="#portfolio" onclick="closeMenu()" aria-label="Portfolio Section Link">Portfolio</a>
                         </li>
                         <hr class="w-full border border-zinc-700">
                         <li class="hover:text-orange-500">
-                            <a href="#testimonials" onclick="closeMenu()">Testimonials</a>
+                            <a href="#testimonials" onclick="closeMenu()" aria-label="Testimonials Section Link">Testimonials</a>
                         </li>
                         <hr class="w-full border border-zinc-700">
                         <li class="hover:text-orange-500">
-                            <a href="#contact" onclick="closeMenu()">Contact</a>
+                            <a href="#contact" onclick="closeMenu()" aria-label="Contact Section Link">Contact</a>
                         </li>
                     </menu>
                 </div>
@@ -89,19 +89,19 @@
             <div class="text-gray-400 z-50">
                 <menu class="flex flex-wrap items-center gap-x-5 px-4 py-4 md:px-10 lg:px-16 md:py-5">
                     <li class="hover:text-orange-500">
-                        <a href="#about">About</a>
+                        <a href="#about" aria-label="About Section Link">About</a>
                     </li>
                     <li class="hover:text-orange-500">
-                        <a href="#services">Services</a>
+                        <a href="#services" aria-label="Services Section Link">Services</a>
                     </li>
                     <li class="hover:text-orange-500">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio" aria-label="Portfolio Section Link">Portfolio</a>
                     </li>
                     <li class="hover:text-orange-500">
-                        <a href="#testimonials">Testimonials</a>
+                        <a href="#testimonials" aria-label="Testimonials Section Link">Testimonials</a>
                     </li>
                     <li class="hover:text-orange-500">
-                        <a href="#contact">Contact</a>
+                        <a href="#contact" aria-label="Contact Section Link">Contact</a>
                     </li>
                 </menu>
             </div>
@@ -118,7 +118,7 @@
                 </div>
             </div>
             <div class="h-full w-full -z-10 object-cover absolute top-0 left-0">
-                <img class="h-full w-full object-cover opacity-95" src="img/r-architecture-TRCJ-87Yoh0-unsplash.webp" alt="Kitchen with white countertops and cabinets and oak accents" loading="eager">
+                <img class="h-full w-full object-cover opacity-95" src="./img/r-architecture-TRCJ-87Yoh0-unsplash.webp" alt="Kitchen with white countertops and cabinets and oak accents" loading="eager">
                 <!--<span class="hidden">Photo by <a href="https://unsplash.com/@rarchitecture_melbourne?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">R ARCHITECTURE</a> on <a href="https://unsplash.com/photos/brown-wooden-seat-beside-white-wooden-table-TRCJ-87Yoh0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>-->
             </div>
             <div class="h-full w-full absolute top-0 left-0 bg-amber-950/35"></div>
@@ -248,7 +248,7 @@
         <!-- Contact Section -->
         <section id="contact" class="bg-zinc-700 pb-24 scroll-my-28">
             <div class="w-full h-96">
-                <iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3159.350708471369!2d-121.00916072374096!3d37.64095811985651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8090537ce583077b%3A0xdc6fb843274e796a!2sStone%20Crafters!5e0!3m2!1sen!2sus!4v1714888747353!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3159.350708471369!2d-121.00916072374096!3d37.64095811985651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8090537ce583077b%3A0xdc6fb843274e796a!2sStone%20Crafters!5e0!3m2!1sen!2sus!4v1714888747353!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Map of Stone Crafter's & Home Location"></iframe>
             </div>
             <div class="flex flex-col mx-0 md:flex-row md:mx-48  mt-24">
                 <div class="flex flex-col mb-16 md:w-2/4 h-auto justify-center text-lg pl-14">
